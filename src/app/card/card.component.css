@@ -1,0 +1,48 @@
+.card{
+    width: 240px;
+    height: 100px;
+    padding: 10px;
+    color: rgb(7, 7, 43);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+mat-icon{
+    font-size: 26px;
+}
+.card-content h3{
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+}
+.card-content h1{
+    color:#044cc0 ;
+}
+.card:hover{
+    background: #044cc0;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    /* background-color: rgb(250, 233, 233); */
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+.card:hover h1,
+.card:hover h3,
+.card:hover .icon
+{
+    color: #fff;
+
+}
+/* .red{
+    background: linear-gradient(135deg,rgb(240, 200, 200),red);
+}
+.orange{
+    background: linear-gradient(135deg,rgb(240, 200, 200),orange);
+}
+.blue{
+    background: linear-gradient(135deg,rgb(240, 200, 200),blue);
+}
+.green{
+    background: linear-gradient(135deg,rgb(240, 200, 200),green);
+} */

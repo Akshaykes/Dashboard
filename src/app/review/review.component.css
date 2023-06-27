@@ -1,0 +1,50 @@
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+
+}
+.card1{
+    width: 300px;
+    height: 100px;
+    margin: 12px;
+    padding: 10px;
+    color: rgb(7, 7, 43);
+
+}
+.card1 h1{
+    
+    text-align: center;
+}
+.card1 p{
+    text-align: center;
+    color:#287bff ;
+}
+
+.charts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+
+}
+.card1:hover{
+    /* background: #044cc0; */
+    /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); */
+    /* background-color: rgb(250, 233, 233); */
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+/* .card1:hover h1,
+.card1:hover h3,
+.card1:hover .icon
+{
+    color: #fff;
+
+} */
